@@ -5,6 +5,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         int[] testAmounts = { 1, 5, 25, 43 };
+//        int[] testAmounts = {11};
 
         for (int i = 0; i < testAmounts.length; i++) {
             List<String> recursiveResult = ChangeCalculatorRecursive.calculateRecursive(testAmounts[i]);
